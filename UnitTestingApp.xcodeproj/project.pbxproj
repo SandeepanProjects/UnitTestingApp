@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18332585291443D40024BC02 /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18332584291443D40024BC02 /* LoginFormViewModel.swift */; };
 		18B396D729143BF9001C98D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B396D629143BF9001C98D5 /* AppDelegate.swift */; };
 		18B396D929143BF9001C98D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B396D829143BF9001C98D5 /* SceneDelegate.swift */; };
 		18B396DB29143BF9001C98D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B396DA29143BF9001C98D5 /* ViewController.swift */; };
@@ -19,9 +20,7 @@
 		18B3971629143C73001C98D5 /* ReportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970729143C6E001C98D5 /* ReportServiceTests.swift */; };
 		18B3971729143C73001C98D5 /* TestingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970829143C6F001C98D5 /* TestingButtons.swift */; };
 		18B3971829143C73001C98D5 /* BullsEyeFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970929143C6F001C98D5 /* BullsEyeFakeTests.swift */; };
-		18B3971929143C73001C98D5 /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970A29143C6F001C98D5 /* MockLoginService.swift */; };
 		18B3971A29143C73001C98D5 /* AsynchronousTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970B29143C6F001C98D5 /* AsynchronousTestCase.swift */; };
-		18B3971B29143C73001C98D5 /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970C29143C6F001C98D5 /* LoginFormViewModel.swift */; };
 		18B3971C29143C73001C98D5 /* TestingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970D29143C6F001C98D5 /* TestingControllerTests.swift */; };
 		18B3971D29143C73001C98D5 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970E29143C70001C98D5 /* BullsEyeTests.swift */; };
 		18B3971E29143C73001C98D5 /* LoginTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3970F29143C70001C98D5 /* LoginTestCases.swift */; };
@@ -50,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18332584291443D40024BC02 /* LoginFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
 		18B396D329143BF9001C98D5 /* UnitTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B396D629143BF9001C98D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B396D829143BF9001C98D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,9 +68,7 @@
 		18B3970729143C6E001C98D5 /* ReportServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportServiceTests.swift; sourceTree = "<group>"; };
 		18B3970829143C6F001C98D5 /* TestingButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingButtons.swift; sourceTree = "<group>"; };
 		18B3970929143C6F001C98D5 /* BullsEyeFakeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullsEyeFakeTests.swift; sourceTree = "<group>"; };
-		18B3970A29143C6F001C98D5 /* MockLoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
 		18B3970B29143C6F001C98D5 /* AsynchronousTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousTestCase.swift; sourceTree = "<group>"; };
-		18B3970C29143C6F001C98D5 /* LoginFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
 		18B3970D29143C6F001C98D5 /* TestingControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingControllerTests.swift; sourceTree = "<group>"; };
 		18B3970E29143C70001C98D5 /* BullsEyeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
 		18B3970F29143C70001C98D5 /* LoginTestCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTestCases.swift; sourceTree = "<group>"; };
@@ -132,6 +130,7 @@
 				18B396D629143BF9001C98D5 /* AppDelegate.swift */,
 				18B396D829143BF9001C98D5 /* SceneDelegate.swift */,
 				18B396DA29143BF9001C98D5 /* ViewController.swift */,
+				18332584291443D40024BC02 /* LoginFormViewModel.swift */,
 				18B396DC29143BF9001C98D5 /* Main.storyboard */,
 				18B396DF29143BFB001C98D5 /* Assets.xcassets */,
 				18B396E129143BFB001C98D5 /* LaunchScreen.storyboard */,
@@ -148,9 +147,7 @@
 				18B3971029143C70001C98D5 /* BullsEyeMockTests.swift */,
 				18B3971129143C70001C98D5 /* BullsEyeSlowTests.swift */,
 				18B3970E29143C70001C98D5 /* BullsEyeTests.swift */,
-				18B3970C29143C6F001C98D5 /* LoginFormViewModel.swift */,
 				18B3970F29143C70001C98D5 /* LoginTestCases.swift */,
-				18B3970A29143C6F001C98D5 /* MockLoginService.swift */,
 				18B3970729143C6E001C98D5 /* ReportServiceTests.swift */,
 				18B3971229143C71001C98D5 /* TestCoreDataStack.swift */,
 				18B3970829143C6F001C98D5 /* TestingButtons.swift */,
@@ -303,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18332585291443D40024BC02 /* LoginFormViewModel.swift in Sources */,
 				18B396DB29143BF9001C98D5 /* ViewController.swift in Sources */,
 				18B396D729143BF9001C98D5 /* AppDelegate.swift in Sources */,
 				18B396D929143BF9001C98D5 /* SceneDelegate.swift in Sources */,
@@ -318,9 +316,7 @@
 				18B3971A29143C73001C98D5 /* AsynchronousTestCase.swift in Sources */,
 				18B3972329143C73001C98D5 /* TestingThrows.swift in Sources */,
 				18B3971729143C73001C98D5 /* TestingButtons.swift in Sources */,
-				18B3971929143C73001C98D5 /* MockLoginService.swift in Sources */,
 				18B3971629143C73001C98D5 /* ReportServiceTests.swift in Sources */,
-				18B3971B29143C73001C98D5 /* LoginFormViewModel.swift in Sources */,
 				18B3972029143C73001C98D5 /* BullsEyeSlowTests.swift in Sources */,
 				18B3971E29143C73001C98D5 /* LoginTestCases.swift in Sources */,
 				18B3972229143C73001C98D5 /* TestingRegistrationPage.swift in Sources */,
